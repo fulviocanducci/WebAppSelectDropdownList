@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppSelectDropdownList", "WebAppSelectDropdownList\WebAppSelectDropdownList.csproj", "{F2927EF3-4821-4FD8-AD5B-92FCD33C99D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Data", "Web.Data\Web.Data.csproj", "{72E741A7-FB54-413F-A75C-39773A0DA808}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.Data", "Web.Data\Web.Data.csproj", "{72E741A7-FB54-413F-A75C-39773A0DA808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppRazorPageDropdownList", "WebAppRazorPageDropdownList\WebAppRazorPageDropdownList.csproj", "{51429287-A5B9-423C-BCC9-9AEFE628F586}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{72E741A7-FB54-413F-A75C-39773A0DA808}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72E741A7-FB54-413F-A75C-39773A0DA808}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72E741A7-FB54-413F-A75C-39773A0DA808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51429287-A5B9-423C-BCC9-9AEFE628F586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51429287-A5B9-423C-BCC9-9AEFE628F586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51429287-A5B9-423C-BCC9-9AEFE628F586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51429287-A5B9-423C-BCC9-9AEFE628F586}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

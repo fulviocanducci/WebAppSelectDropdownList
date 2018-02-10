@@ -22,11 +22,17 @@ namespace WebAppSelectDropdownList.Controllers
 
             //ViewBag.Items = _items.ToSelectList("Value", "Name", 0, "Group");
 
-            ViewBag.Status = new SelectList(new object[]
+            //ViewBag.Status = new SelectList(new object[]
+            //{
+            //    new {Name = "Sim", Value = "S"},
+            //    new {Name = "Não", Value = "N"}
+            //}, "Value", "Name");
+
+            ViewBag.Status = new[]
             {
-                new {Name = "Sim", Value = "S"},
-                new {Name = "Não", Value = "N"}
-            }, "Value", "Name");
+                new SelectListItem(){ Value = "S", Text = "Sim"},
+                new SelectListItem(){ Value = "N", Text = "Não"}
+            };
 
             return View();
         }
